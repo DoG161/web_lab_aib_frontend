@@ -77,5 +77,5 @@ p{
 }
 ```
 __Получили:__  
-![ALT](images/ResultImage.png)
+![ALT](images/ResultImage2.png)
 
