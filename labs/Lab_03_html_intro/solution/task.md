@@ -1,28 +1,81 @@
 # Лабораторная работа №3
 
-## КОД
+## КОД HTML
 ```html
 <!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>The Life of ITUshnik</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <title>The Life of ITUshnik</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <h1 style="font-size: 31px; text-transform: uppercase; font-style: italic;">The Life of ITUshnik</h1>
-        <h2 style="font-size: 31px;">ITUshnik</h2>
-        <p><a href="https://music.yandex.ru/users/ya.indietronica/playlists/1013" target="_blank">Плейлист</a> для учебы на чиле</p>
-        <p>Один раз послушал - семь раз забил</p>
-        <img src="D:\web_lab_aib_frontend\labs\Lab_02_Browsers_DevTools\solution\images\album.png" alt="Какой то код" width="210px"/>
+    <div>
+      <h1>The Life of ITUshnik</h1>
+      <h2>ITUshnik</h2>
+      <img src="images\album.png" alt="Ну очень прикольная картинка"/>
+   </div>
+      <p><a href="https://music.yandex.ru/users/ya.indietronica/playlists/1013" target="_blank">Плейлист</a> для учебы на чиле</p>
+      <p>Один раз послушал - семь раз забил</p>
 </body>
 </html>
 ```
+
+## КОД CSS
+```css
+body{
+    min-width: 850px;
+}
+
+img{
+    width: 210px;
+}
+
+
+h1{
+    font-family: "William", serif;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 31px;
+    text-transform: uppercase;
+    padding-top: 45px;
+    margin-bottom: 0px;
+}
+
+h2{
+    font-family: "Inter", sans-serif;
+    text-transform: uppercase;
+    font-size: 31px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+h3{
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 18px;
+    font-weight: normal;
+    margin: 0;
+}
+
+div{
+    background-color: deepskyblue;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    margin: 0 auto 20px;
+}
+
+p{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 700px;
+    text-align: left;
+}
+```
 __Получили:__  
 ![ALT](images/ResultImage.png)
-
-__Вид с неправильной ссылкой:__  
-![ALT](images/ErrorImage.png)
 
