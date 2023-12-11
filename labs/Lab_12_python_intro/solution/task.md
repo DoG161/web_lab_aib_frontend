@@ -7,7 +7,7 @@
 <details><summary>P.S.</summary>
 Когда эталонное решение в 12 строк, а ты управился за 3
 
-![але](/images/makak.jpg)
+![але](/images/makak.png)
 </details>
 
 ### Задание 2
