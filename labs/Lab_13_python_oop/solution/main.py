@@ -3,12 +3,11 @@ import json
 import os
 from writter import XlsAnalyticPaymentWriter
 
-def load_data(file_name):
-    path = os.path.join(
-        './../', file_name
-    )
+def load_data(file_path):
+    current_dir = os.path.dirname(__file__)
+    full_path = os.path.join(current_dir, file_path)
 
-    with open(path, 'r', encoding='utf-8') as file:
+    with open(full_path, 'r', encoding='utf-8') as file:
         data = json.load(file)
 
     return data
