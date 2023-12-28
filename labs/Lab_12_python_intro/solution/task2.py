@@ -1,5 +1,5 @@
-n = int(input())
-sequence = list(map(int, input().split()))
+n = int(input("Input n: "))
+sequence = list(map(int, input("Enter a sequence of numbers X: ").split()))
 medians = []
 
 for i in range(n):
